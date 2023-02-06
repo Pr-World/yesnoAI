@@ -5,7 +5,6 @@ int main() {
 
     printf("Enter your question ( `end` to end ) :\n");
     start:
-    printf("\n Q) ");
     resetAI(ai);
     ai = inputAI();
     if ( strcmp(ai.data, "end") == 0 ) { return 0; }
